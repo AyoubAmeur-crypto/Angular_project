@@ -26,7 +26,7 @@ export class PanierComponent {
     );
   }
   removeProduct(product: any) {
-    this.service.removeFromCart(product); 
+    this.service.removeFromCart(product);
     this.cartItems = this.service.getCartItems();
     this.calculateTotalPrice();
   }
