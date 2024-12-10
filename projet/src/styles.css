@@ -1,0 +1,76 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+
+body {
+
+  background-image: url('https://i2.ppvise.site/gimg/e6d37110df.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #222;
+  color: white;
+}
+
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar .nav-link:hover {
+  color: #f8c102 !important;
+}
+
+
+.container {
+  background-color: transparent;
+  padding-top: 40px;
+}
+
+
+.card.bg-dark {
+  background-color: #333 !important;
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+.btn-warning {
+  background-color: #f8c102;
+  color: #333;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Button hover effect */
+.btn-warning:hover {
+  background-color: #e1b100;
+  transform: scale(1.05);
+}
+
+/* Price text color */
+.text-warning {
+  color: #f8c102;
+}
+
+/* Optional: Adjust text and card styles for better readability */
+.card-body .card-title {
+  font-size: 1rem;
+  font-weight: 500;
+}
+

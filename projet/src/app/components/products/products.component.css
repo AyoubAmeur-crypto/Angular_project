@@ -1,0 +1,10 @@
+.cover-section {
+
+  height: 290px; /* Adjust the height based on your preference */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding-top: 100px; /* Adjust to avoid overlap with navbar */
+}
